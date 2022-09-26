@@ -14,7 +14,7 @@ return [
             'Default' => [
                 'charset' => 'utf8mb4',
                 'dbname' => 'db0cco2msmq010',
-                'driver' => 'postgres',
+                'driver' => 'pdo_pgsql',
                 'host' => 'ec2-63-32-248-14.eu-west-1.compute.amazonaws.com',
                 'password' => 'b5ac30ee0870ff0a58ef2904a869617d042e6189a45d01bcad199a4e0cb86a8b',
                 'tableoptions' => [

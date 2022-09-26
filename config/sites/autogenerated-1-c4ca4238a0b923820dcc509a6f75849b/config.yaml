@@ -1,4 +1,4 @@
-base: ''
+base: 'https://typo3headless.herokuapp.com/public/'
 languages:
   -
     title: English
