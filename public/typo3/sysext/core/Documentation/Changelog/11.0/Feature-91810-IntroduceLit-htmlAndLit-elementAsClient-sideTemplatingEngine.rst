@@ -52,7 +52,7 @@ Variable assignment
 
 .. code-block:: html
 
-   <div>Hello World!</div>
+   <div>Hello World!!!!!!!!!!!!!</div>
 
 Unsafe tags would have been encoded (e.g. :html:`<b>World</b>`
 as :html:`&lt;b&gt;World&lt;/b&gt;`).
@@ -155,7 +155,7 @@ This is rendered as:
 .. code-block:: html
 
    <my-element value="World">
-     <p>Hello world!</p>
+     <p>Hello world!!!!!!</p>
    </my-element>
 
 .. _web-components: https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements

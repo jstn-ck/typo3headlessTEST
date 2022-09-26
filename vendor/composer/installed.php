@@ -1,8 +1,8 @@
 <?php return array(
     'root' => array(
         'name' => 'typo3/cms-base-distribution',
-        'pretty_version' => 'v11.5.1',
-        'version' => '11.5.1.0',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
         'reference' => NULL,
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
@@ -121,6 +121,15 @@
             'reference' => 'e50b83a2f1f296ca61394fe88fbfe3e896a84cf4',
             'type' => 'library',
             'install_path' => __DIR__ . '/../enshrined/svg-sanitize',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'friendsoftypo3/headless' => array(
+            'pretty_version' => 'v3.1.2',
+            'version' => '3.1.2.0',
+            'reference' => '14a3663fd668fe007bd614f7d1f36abc20e13da0',
+            'type' => 'typo3-cms-extension',
+            'install_path' => __DIR__ . '/../../public/typo3conf/ext/headless',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
@@ -743,8 +752,8 @@
             'dev_requirement' => false,
         ),
         'typo3/cms-base-distribution' => array(
-            'pretty_version' => 'v11.5.1',
-            'version' => '11.5.1.0',
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
             'reference' => NULL,
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',

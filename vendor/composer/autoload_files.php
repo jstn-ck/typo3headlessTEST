@@ -22,5 +22,5 @@ return array(
     '37a3dc5111fe8f707ab4c132ef1dbc62' => $vendorDir . '/guzzlehttp/guzzle/src/functions_include.php',
     '6a47392539ca2329373e0d33e1dba053' => $vendorDir . '/symfony/polyfill-intl-icu/bootstrap.php',
     '8a197a13b1f213f3a2178168511a1b5d' => $baseDir . '/public/typo3/sysext/core/Resources/PHP/GlobalDebugFunctions.php',
-    'd2ecd98bc3fa0defe388f0264de5f6d6' => $vendorDir . '/typo3/autoload-include.php',
+    '779a6494ef91603b38ace2c656ca303f' => $vendorDir . '/typo3/autoload-include.php',
 );

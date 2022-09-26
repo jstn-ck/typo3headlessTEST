@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit9bb712f78028753508e8153e37d48e61
+class ComposerStaticInitc0052e724a55b3f91b9e7a69d28e7785
 {
     public static $files = array (
         '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
@@ -23,7 +23,7 @@ class ComposerStaticInit9bb712f78028753508e8153e37d48e61
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
         '6a47392539ca2329373e0d33e1dba053' => __DIR__ . '/..' . '/symfony/polyfill-intl-icu/bootstrap.php',
         '8a197a13b1f213f3a2178168511a1b5d' => __DIR__ . '/../..' . '/public/typo3/sysext/core/Resources/PHP/GlobalDebugFunctions.php',
-        'd2ecd98bc3fa0defe388f0264de5f6d6' => __DIR__ . '/..' . '/typo3/autoload-include.php',
+        '779a6494ef91603b38ace2c656ca303f' => __DIR__ . '/..' . '/typo3/autoload-include.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -139,6 +139,10 @@ class ComposerStaticInit9bb712f78028753508e8153e37d48e61
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
         ),
+        'F' => 
+        array (
+            'FriendsOfTYPO3\\Headless\\' => 24,
+        ),
         'E' => 
         array (
             'Egulias\\EmailValidator\\' => 23,
@@ -165,8 +169,8 @@ class ComposerStaticInit9bb712f78028753508e8153e37d48e61
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
-            1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
-            2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
         ),
         'enshrined\\svgSanitize\\' => 
         array (
@@ -447,8 +451,8 @@ class ComposerStaticInit9bb712f78028753508e8153e37d48e61
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -494,6 +498,10 @@ class ComposerStaticInit9bb712f78028753508e8153e37d48e61
         'GuzzleHttp\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
+        ),
+        'FriendsOfTYPO3\\Headless\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/public/typo3conf/ext/headless/Classes',
         ),
         'Egulias\\EmailValidator\\' => 
         array (
@@ -561,9 +569,9 @@ class ComposerStaticInit9bb712f78028753508e8153e37d48e61
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit9bb712f78028753508e8153e37d48e61::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit9bb712f78028753508e8153e37d48e61::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit9bb712f78028753508e8153e37d48e61::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitc0052e724a55b3f91b9e7a69d28e7785::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitc0052e724a55b3f91b9e7a69d28e7785::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitc0052e724a55b3f91b9e7a69d28e7785::$classMap;
 
         }, null, ClassLoader::class);
     }

@@ -24,7 +24,7 @@ using Extbase which enforces cHash usage.
 				uid = tx_myext_pi1[showUid]
 			}
 			additionalGetParameters {
-				tx_myext_pi1[special] = HELLO
+				tx_myext_pi1[special] = HELL efw jopfew jopwO
 			}
 		}
 	}

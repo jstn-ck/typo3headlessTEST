@@ -3883,7 +3883,7 @@ Example:
 page.10 = TEXT
 page.10.value = Here goes the header
 page.20 = TEXT
-page.20.value = Hello World!
+page.20.value = Hello World!!!!!!
 page.30 = TEXT
 page.30.value = Here goes the footer]]></description>
 			<default><![CDATA[
@@ -3898,7 +3898,7 @@ Example:
 page.10 = TEXT
 page.10.value = Here goes the header
 page.20 = TEXT
-page.20.value = Hello World!
+page.20.value = Hello World!!!!!
 page.30 = TEXT
 page.30.value = Here goes the footer]]></description>
 			<default><![CDATA[
