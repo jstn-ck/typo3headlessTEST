@@ -1,4 +1,4 @@
-base: 'http://localhost:8000/test'
+base: ''
 languages:
   -
     title: English

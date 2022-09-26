@@ -3,7 +3,7 @@ return [
     'BE' => [
         'debug' => true,
         'explicitADmode' => 'explicitAllow',
-        'installToolPassword' => '$argon2i$v=19$m=65536,t=16,p=1$WEllcG55ZzRjMEdScEYzYg$EpsjhpeQiEzpM82Efzff+n4S9YGmtMCAqvLL+tDQkmE',
+        'installToolPassword' => '$argon2i$v=19$m=65536,t=16,p=1$MEJaVnd4SzV4T0JiZ3BpaA$Kncwg3kp0Hs0zAmJaDMR42CmK2P7pfDOfuf/2D0NJis',
         'passwordHashing' => [
             'className' => 'TYPO3\\CMS\\Core\\Crypto\\PasswordHashing\\Argon2iPasswordHash',
             'options' => [],
@@ -13,16 +13,16 @@ return [
         'Connections' => [
             'Default' => [
                 'charset' => 'utf8mb4',
-                'dbname' => 'headlessTest',
-                'driver' => 'mysqli',
-                'host' => 'localhost',
-                'password' => 'JckC2c0k0k--',
+                'dbname' => 'db0cco2msmq010',
+                'driver' => 'postgres',
+                'host' => 'ec2-63-32-248-14.eu-west-1.compute.amazonaws.com',
+                'password' => 'b5ac30ee0870ff0a58ef2904a869617d042e6189a45d01bcad199a4e0cb86a8b',
                 'tableoptions' => [
                     'charset' => 'utf8mb4',
                     'collate' => 'utf8mb4_unicode_ci',
                 ],
                 'unix_socket' => '/tmp/mysql.sock',
-                'user' => 'root',
+                'user' => 'rlttbpzcusrizf',
             ],
         ],
     ],
@@ -118,6 +118,7 @@ return [
         'sitename' => 'headless',
         'systemMaintainers' => [
             1,
+            2,
         ],
     ],
 ];
